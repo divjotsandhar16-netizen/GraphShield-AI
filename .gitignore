@@ -1,0 +1,75 @@
+# Python virtual environment
+
+venv/
+.venv/
+env/
+
+# Python cache
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+
+.ipynb_checkpoints/
+
+# macOS
+
+.DS_Store
+
+# Node.js dependencies
+
+frontend/node_modules/
+
+# Frontend build output
+
+frontend/dist/
+frontend/build/
+
+# Environment and secret files
+
+.env
+.env.*
+!.env.example
+
+# IDE settings
+
+.vscode/
+
+# Temporary files
+
+*.tmp
+*.log
+
+# OS/editor temporary files
+
+*.swp
+*.swo
+# Large raw CIC-IDS2017 datasets
+
+data/TrafficLabelling/
+
+# Large processed datasets
+
+data/processed/*.csv
+
+# Large trained model files
+
+models/*.pt
+
+# Large generated graph files
+
+results/*.pt
+results/*.npz
+
+# Generated temporal graph directories
+
+results/temporal_graphs/
+results/temporal_graphs_1min/
+results/temporal_graphs_10min/
+
+# Local datasets, models, and generated results
+/data/
+/models/
+/results/
